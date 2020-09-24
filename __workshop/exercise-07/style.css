@@ -1,7 +1,59 @@
 body {
   margin: 0;
 }
-
+h1 {
+  margin: 20px 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
 .mobile-nav-button img {
   width: 18px;
 }
+
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  right: 0px;
+
+  position: relative;
+}
+.desktop-nav ul {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  position: absolute;
+}
+.desktop-nav li {
+  display: inline;
+  margin: 20px 20px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-nav {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+}
+
+/* display
+justify-content
+align-items
+padding
+margin
+list-style */

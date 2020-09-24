@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+h1 {
+  margin: 0px auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.limited {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+.limited p {
+  border: black 2px solid;
+  box-sizing: content-box;
+  padding: 10px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+.iphonexr {
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.trade {
+  width: 43%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: #1070b1;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.link::after {
+  content: " >";
+}
+
+/* font-family
+text-align
+border
+border-radius
+padding
+line-height
+font-size
+max-width
+margin
+margin-top
+color
+text-decoration
+content
+padding-left
+display
+:hover
+::after */
